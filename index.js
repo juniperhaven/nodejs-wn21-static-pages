@@ -1,5 +1,5 @@
-var fs = require('fs'),
-    http = require('http');
+var fs = require('fs');
+var http = require('http');
 
 http.createServer(function (req, res) {
   fs.readFile(__dirname + req.url, function (err,data) {
