@@ -18,19 +18,11 @@ img {
 }
 
 a {
-    background-color: plum;
+    background-color: azure;
     padding: 10px;
     color: rgb(2, 88, 88);
     border-radius: 15px 50px 30px 5px;
     margin-right: 50px;
-}
-
-a:hover {
-    color: black;
-}
-
-a:visited {
-    color: azure;
 }
 
 #nav {
